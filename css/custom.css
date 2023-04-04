@@ -2,6 +2,14 @@
  * Your custom CSS file
  *************************************************************************/
 
+.banner {
+  background-color: rgb(96, 91, 211);
+}
+
+h2 {
+  color: rgb(96, 91, 211);
+}
+
 .custom-dropdown {
   width: 240px;
 }
