@@ -99,7 +99,7 @@ hr {
 .menu {
   position: relative;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1024px;
 }
 
 .menu .menu-table {
@@ -257,7 +257,7 @@ hr {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.5;
-  max-width: 900px;
+  max-width: 1024px;
   overflow-x: auto;
 }
 
@@ -306,7 +306,7 @@ hr {
 }
 
 .banner .flex-item {
-  max-width: 900px;
+  max-width: 1024px;
   margin: 20px auto;
   padding: 0 30px;
 }
@@ -1334,7 +1334,7 @@ ol.nested>li:before {
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1024px) {
   .flex-item-stretch {
     flex: 1;
   }
@@ -1464,7 +1464,7 @@ ol.nested>li:before {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1024px) {
   .masonry {
     column-count: 3;
   }
@@ -1480,7 +1480,7 @@ ol.nested>li:before {
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 900px) {
+@media screen and (min-width: 700px) and (max-width: 1024px) {
   .masonry {
     column-count: 3;
   }
