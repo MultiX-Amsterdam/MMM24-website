@@ -2,6 +2,24 @@
  * Your custom CSS file
  *************************************************************************/
 
+.menu .menu-items .dropdown i {
+  color: #000000;
+}
+
+.menu .menu-items>a,
+.menu .menu-items>div {
+  color: rgb(0, 0, 0, 0.8);
+}
+
+.menu .menu-items>a:hover,
+.menu .menu-items>div:hover {
+  color: rgb(0, 0, 0);
+}
+
+.menu-container {
+  background-color: white;
+}
+
 .banner {
   background-color: rgb(96, 91, 211);
 }
@@ -39,4 +57,17 @@ h2 {
 #share-url-copy-prompt {
   display: none;
   color: #007bff;
+}
+
+@media screen and (max-width: 750px) {
+
+  .menu .menu-items>a,
+  .menu .menu-items>div {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  .menu .menu-items .dropdown .dropdown-content a {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.8);
+  }
 }
