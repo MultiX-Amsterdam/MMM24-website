@@ -1,0 +1,343 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>MMM2024</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/footer.js"></script>
+  <style>
+    .menu-authors {
+      color: rgb(0, 0, 0) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container">
+    <div class="banner" style="background: url('img/feature.jpeg') no-repeat center; background-size: cover; height: 450px;">
+      <div class="banner-table flex-column" style="background-color: rgba(0, 0, 0, 0.5);">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin-small">Author Information</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner" id="submission">
+      <div class="banner-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin-small">Submission Guidelines</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column full-width">
+            The conference accepts 5 types of contributions:
+            <ul>
+              <li>Regular papers, describing novel results in the conference research topics</li>
+              <li>Special session papers, describing novel results that are focused on selected narrow topics</li>
+              <li>Video Browser Showdown (VBS) papers for the video browsing contest attendees</li>
+              <li>Demo papers, giving an overview of new interesting software or methods</li>
+              <li>Brave New Ideas</li>
+            </ul>
+            <p class="text">
+              All paper submissions must conform to <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">the formatting instructions</a> of Springer Verlag, LNCS series, and must strictly adhere to the submission schedule.
+            </p>
+            <p class="text">
+              Each contribution (regular, special session, VBS, demo paper, etc.) must be associated with one full conference registration; only one contribution can be associated with each registration.
+              While MMM 2024 will be broadcast online for registered participants, the conference will primarily be an onsite event.
+              In particular, presenting authors of all oral presentations are expected to attend the conference on location.
+              Posters will be presented in hybrid onsite/online sessions, so virtual poster presentations will be possible.
+            </p>
+            <p class="text">
+              For publishing in Open Access or Open Choice, please refer to the Springer <a href="https://www.springer.com/gp/computer-science/lncs/open-access-publishing-in-computer-proceedings">webpage</a> for prices and additional information.
+              The invoicing address and the CC-BY licence-to-publish agreement are needed at the same time as the files for the publication.
+            </p>
+            <p class="text">
+              To submit to MMM 2024, please go to the <a href="https://www.conftool.pro/mmm2024/">MMM 2024 conftool submission site</a>.
+            </p>
+          
+            <h2 class="add-top-margin-small">Regular and Special Session Papers</h2>
+            <hr>
+            <p class="text">
+              Regular and special session paper submissions are limited to 12 content pages, including all figures, tables, and appendices, in the Springer LNCS style.
+              Additional 2 pages containing only cited references are allowed.
+              <b>Please note that this is a change from previous MMM conference editions.</b>
+            </p>
+            <p class="text">
+              Regular and special session paper submissions (unless explicitly stated otherwise in the call text for a specific special session) will be peer-reviewed in a <b>double-blind</b> review process.
+              Thus, the submissions must be properly anonymized.
+            </p>
+            <h2 class="add-top-margin-small">Demonstration Papers</h2>
+            <hr>
+            <p class="text">
+              Demonstration papers submissions must not exceed 6 pages (including figures, tables, and references) and must conform to the same formatting instructions. VBS and Demo paper submissions need not be anonymized.
+            </p>
+            <p class="text">
+              An additional 1-2 pages should be appended to your paper illustrating what will be shown at the demo session at MMM. This additional content will not be published in the conference proceedings, should the submission be accepted. We also recommend including a URL linking to a short video (max. 3 min) to accompany the paper that shows the demo in action.
+            </p>
+              <p class="text">
+              Presenters are expected to bring the necessary equipment (computers, etc.) themselves. The conference will provide a table, power outlet, wireless (shared) internet and a poster board. If you have special needs (e.g., more space), please include a related note into your demo submission.
+            </p>
+            <h2 class="add-top-margin-small">Brave New Ideas Papers</h2>
+            <hr>
+            <p class="text">
+              BNI papers should be no longer than 6 pages in length, with one additional page for references if needed.
+            </p>
+            <p class="text">
+              BNI submissions will be reviewed by conference chairs in a single-blind review process.
+            </p>
+            <h2 class="add-top-margin-small">Video Browser Showdown</h2>
+            <hr>
+            <p class="text">
+              To participate in VBS, please <strong>submit an extended demo paper (6+2 pages in Springer LNCS format, where the 2 pages may be used for references)</strong>&nbsp;<a href="http://videobrowsershowdown.org/call-for-papers/important-dates/">by the deadline</a> via the <a href="https://mmm2024.org/submit.html">MMM 2024 Submission System (please select „Video Browser Showdown“ track)</a>. The submission should include a detailed description of the video search tool (including a screenshot) and how it supports interactive search in video data. Submissions will be peer-reviewed to ensure maximum quality. Accepted papers will be published in the proceedings of the MMM conference. In the public VBS session, each system needs to be presented (typically as a concise introductory video, or sometimes as a poster – but this will depend on the local situation and announced a few weeks before the competition).
+            </p>
+            <p class="text">
+              More information can be found at <a href="https://videobrowsershowdown.org/call-for-papers/">https://videobrowsershowdown.org/call-for-papers/</a>
+            </p>
+            <h2 class="add-top-margin-small">MediaEval</h2>
+            <hr>
+            <p class="text">
+              To be added.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner" id="reviewer">
+      <div class="banner-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin-small">Reviewer Guidelines</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content" id="reviewer">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column full-width">
+
+            <p class="text">
+              Thank you for your time and effort in reviewing for MMM 2024. Your expertise directly contributes to maintaining the high quality of the MMM conference series and strengthening the multimedia research community.
+            </p>
+              <p class="text">
+                  As a Technical Program Committee (TPC) member, we expect that you are already experienced with writing excellent
+                  reviews. However, in practice we find that guidelines can help the review process and the most important of our
+                  guidelines are:
+
+              <ul>
+                <li>
+                  <p>
+                    You should write a review that you would like to receive yourself. Your reviews should be helpful to the authors,
+                      even if the review recommends the rejection of the paper.</p>
+                </li>
+                <li>
+                  <p>
+                    The MMM conference deals with multimedia and as such, while single media papers are acceptable, papers dealing with
+                      multimedia data are especially welcome.</p>
+                </li>
+                <li>
+                  <p>
+                    Papers do not need to be focused on applying AI techniques to multimedia data. Our research community is rich and
+                      diverse, and papers addressing many aspects of multimedia analytics and modeling are welcome.</p>
+                </li>
+                <li>
+                  <p>
+                    Even though all reviews are anonymous, we hope that you prepare excellent reviews, reviews that you would be proud to
+                      associate with your name.</p>
+                </li>
+              </ul>
+            </p>
+              <p class="text">We now present our guideline for best practices when reviewing for MMM 2024.</p>
+
+              <h2 class="add-top-margin-small">Best practices for reviewing</h2>
+              <hr/>
+              <p class="text"><strong>1.
+                    Check the paper topic:</strong></p>
+              <ul>
+                <li>
+                  <p>
+                    Confirm that the paper that you are reviewing falls into the topical scope of MMM, as defined by the Call for Papers.
+                      Eventually, we rely on your judgement and the collective wisdom with your peers to decide if the paper aligns
+                      with multimedia topics.</p>
+                </li>
+                <li>
+                  <p>
+                    Remember that the problem addressed by an MMM paper ideally involves multi-modal data, or is expected to be related to
+                      the challenge of how people interpret and use multimedia.</p>
+                </li>
+                <li>
+                  <p>
+                    Although many submissions to MMM make a technical contribution in the form of a new algorithm or AI application, not all
+                      do, nor is it a requirement of the MMM conference. Do not give less value to papers that carry out studies of
+                      new multimedia problems because they do not make a novel algorithmic contribution. Instead, judge these papers
+                      by the novelty of their insights and the value these insights could have for the community.</p>
+                </li>
+              </ul>
+              <p class="text"><strong>2.
+                    Support your statements:</strong></p>
+              <ul>
+                <li>
+                  <p>
+                    Reviews should not just state, “It is well known that…”, but rather, they should include citations. Likewise, reviews
+                      should not just state, “Important references are missing…”, but rather, they should include examples.</p>
+                </li>
+                <li>
+                  <p>
+                    Reviewers should list their own references only in very rare cases when these are indeed the most relevant references for
+                      the authors to refer to.</p>
+                </li>
+                <li>
+                  <p>
+                    Reviews should not just state, “Authors should compare to the state of the art…”, but rather, they should cite specific
+                      work (i.e., peer-reviewed references) that they feel the authors should have considered and why.</p>
+                </li>
+              </ul>
+              <p class="text"><strong>3.
+                    Respect the authors:</strong></p>
+              <ul>
+                <li>
+                  <p>
+                    Reviews should critique “the paper”, and not the authors.</p>
+                </li>
+                <li>
+                  <p>
+                    Reviews should try not address the authors directly, esp. not as “you”. (A direct address can be interpreted as an
+                      affront by the reader).</p>
+                </li>
+                <li>
+                  <p>
+                    During the review process, no attempt should be made to guess the identity of the authors.</p>
+                </li>
+              </ul>
+              <p class="text"><strong>4.
+                    Please include in your review:</strong></p>
+              <ul>
+                <li>
+                  <p>
+                    Statement of novelty: What does the paper contribute? Is that contribution valuable for the multimedia research community?
+                      Does the paper cover all the relevant related work, and explain how its contribution builds on the related
+                      work?</p>
+                </li>
+                <li>
+                  <p>
+                    Statement of scientific rigor: Are the experiments well designed? Are the experiments sufficient to support the claims
+                      made by the paper? Are they reproducible? Have the authors released a resource, such as a data set or
+                      code?</p>
+                </li>
+                <li>
+                  <p>
+                    Fixes that the authors should make for the camera ready. We can trust the authors to correct minor errors. Authors
+                      generally also will state their commitment to correcting minor errors found during the review process during the
+                      rebuttal. However, major flaws must lead to rejection, since it is not possible to confirm that the authors have
+                      actually corrected major flaws successfully (i.e., the paper does not go back to the reviewers for
+                      checking).</p>
+                </li>
+              </ul>
+              <p class="text">
+                Policy on arXiv papers: We consider a “publication” to be a manuscript that has undergone peer review and has been accepted
+                  for publication. This means that the following points apply to arXiv papers (and any other papers available online
+                  that have not been peer reviewed):</p>
+              <ul>
+                <li>
+                  <p>
+                    If
+                      the paper that you are reviewing is available on arXiv, and has not been published elsewhere, it is an
+                      acceptable submission to MMM, since arXiv papers are not peer reviewed and are not considered to be
+                      publications;</p>
+                </li>
+                <li>
+                  <p>
+                    Please do not insist that the authors cite a paper that is only on arXiv and has not otherwise been published. Since
+                      arXiv papers are not all peer-reviewed publications, missing an arXiv paper does *not* count as missing related
+                      work;</p>
+                </li>
+                <li>
+                  <p>
+                    Likewise, if the authors do not compare their work with an approach described in an arXiv paper, it does *not* count as a
+                      weakness in their experimental evaluation;</p>
+                </li>
+                <li>
+                  <p>
+                    If you know of an interesting arXiv paper relevant to the paper you are reviewing, you are more than welcome to
+                      tell the authors about it, but make sure you mark the reference as FYI “for your information” so that the
+                      authors know that you do not regard it as missing related work.</p>
+                </li>
+              </ul>
+              <p>
+                If you have any questions about the guidelines, please contact the Technical Program Chairs at <a
+                    href="mailto:tpc-chairs@mmm2024.org"
+                    target="_blank">tpc-chairs@mmm2024.org</a>
+                </p>
+              <p ><br></p>
+              </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner" id="camera-ready">
+      <div class="banner-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin-small">Camera-Ready Instructions</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column full-width">
+            <p class="text">
+              To be added.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner" id="presentation">
+      <div class="banner-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin-small">Poster/Oral Presentation</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column full-width">
+            <p class="text">
+              To be added.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-container"></div>
+</body>
+
+</html>
