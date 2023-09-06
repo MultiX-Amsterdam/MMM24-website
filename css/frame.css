@@ -108,7 +108,7 @@ hr {
 .menu {
   position: relative;
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1050px;
 }
 
 .menu .menu-table {
@@ -267,7 +267,7 @@ hr {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.5;
-  max-width: 1400px;
+  max-width: 1050px;
   overflow-x: auto;
 }
 
@@ -326,7 +326,7 @@ hr {
 }
 
 .banner .flex-item {
-  max-width: 1400px;
+  max-width: 1050px;
   margin: 20px auto;
   padding: 0 30px;
 }
@@ -1354,7 +1354,7 @@ ol.nested>li:before {
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1050px) {
   .flex-item-stretch {
     flex: 1;
   }
@@ -1376,7 +1376,7 @@ ol.nested>li:before {
   }
 }
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1050px) {
   .logo {
     -webkit-tap-highlight-color: transparent;
   }
@@ -1484,7 +1484,7 @@ ol.nested>li:before {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1050px) {
   .masonry {
     column-count: 3;
   }
@@ -1500,7 +1500,7 @@ ol.nested>li:before {
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1400px) {
+@media screen and (min-width: 700px) and (max-width: 1050px) {
   .masonry {
     column-count: 3;
   }

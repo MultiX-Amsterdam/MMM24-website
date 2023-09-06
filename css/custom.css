@@ -60,7 +60,7 @@ h3 {
   color: #007bff;
 }
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1050px) {
 
   .menu .menu-items>a,
   .menu .menu-items>div {
