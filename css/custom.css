@@ -24,7 +24,8 @@
   background-color: rgb(96, 91, 211);
 }
 
-h2 {
+h2,
+h3 {
   color: rgb(96, 91, 211);
 }
 
@@ -59,7 +60,7 @@ h2 {
   color: #007bff;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1330px) {
 
   .menu .menu-items>a,
   .menu .menu-items>div {
