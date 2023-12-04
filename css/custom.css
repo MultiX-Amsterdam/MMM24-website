@@ -2,6 +2,18 @@
  * Your custom CSS file
  *************************************************************************/
 
+.menu {
+  max-width: 1050px;
+}
+
+.menu .menu-table {
+  max-width: 1050px;
+}
+
+.banner .flex-item {
+  max-width: 1050px;
+}
+
 .menu .menu-items .dropdown i {
   color: #000000;
 }
