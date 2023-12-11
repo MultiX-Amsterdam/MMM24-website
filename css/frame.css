@@ -437,6 +437,7 @@ hr {
   border: 1px solid #666666;
   display: grid;
   width: fit-content;
+  margin: 15px 0;
 }
 
 .scrollable-image-container.center {
