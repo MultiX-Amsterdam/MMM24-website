@@ -2,6 +2,15 @@
  * Your custom CSS file
  *************************************************************************/
 
+.image-wrap-text-custom {
+  float: left;
+  margin: 5px 40px 25px 0;
+}
+
+.max-width-200 {
+  max-width: 200px;
+}
+
 .menu {
   max-width: 1050px;
 }
@@ -82,5 +91,13 @@ h3 {
   .menu .menu-items .dropdown .dropdown-content a {
     border-top: 1px solid rgba(0, 0, 0, 0.5);
     color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .image-wrap-text-custom {
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
   }
 }
