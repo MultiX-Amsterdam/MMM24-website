@@ -11,6 +11,10 @@
   max-width: 200px;
 }
 
+.max-width-400 {
+  max-width: 400px;
+}
+
 .menu {
   max-width: 1050px;
 }
